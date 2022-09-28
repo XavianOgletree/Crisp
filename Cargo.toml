@@ -1,5 +1,5 @@
 [package]
-name = "Crisp"
+name = "crisp"
 version = "0.1.0"
 authors = ["Xavian Ogletree <xavian.ogletree@outlook.com.com>"]
 edition = "2018"

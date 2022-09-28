@@ -3,16 +3,6 @@
 version = 3
 
 [[package]]
-name = "Crisp"
-version = "0.1.0"
-dependencies = [
- "cairo-rs",
- "gdk",
- "gio",
- "gtk",
-]
-
-[[package]]
 name = "atk"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -75,6 +65,16 @@ name = "cc"
 version = "1.0.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8dae9c4b8fedcae85592ba623c4fd08cfdab3e3b72d6df780c6ead964a69bfff"
+
+[[package]]
+name = "crisp"
+version = "0.1.0"
+dependencies = [
+ "cairo-rs",
+ "gdk",
+ "gio",
+ "gtk",
+]
 
 [[package]]
 name = "fragile"
